@@ -1,5 +1,5 @@
-#Django Rest api token based authentication
-##Routes
+# Django Rest api token based authentication
+## Routes
 /auth/login/ : [POST] takes username and password and return token
 ![alt text](/screenshots/login.PNG)
 
@@ -12,5 +12,5 @@
 /auth/register/ : [POST] takes username, password and email and return token and user
 ![alt text](/screenshots/register.PNG)
 
-#More details about api can be found at this url
+# More details about api can be found at this url
 Url :[https://documenter.getpostman.com/view/10197308/SzfAzSWc?version=latest]
