@@ -1,1 +1,16 @@
-https://documenter.getpostman.com/view/10197308/SzfAzSWc?version=latest
+#Django Rest api token based authentication
+##Routes
+/auth/login/ : [POST] takes username and password and return token
+![alt text](/screenshots/login.png)
+
+/auth/logout : [GET] takes token in header and logout the user
+![alt text](/screenshots/logout.png)
+
+/auth/home : [GET] takes token in header and return user details
+![alt text](/screenshots/home.png)
+
+/auth/register/ : [POST] takes username, password and email and return token and user
+![alt text](/screenshots/register.png)
+
+#More details about api can be found at this url
+Url :[https://documenter.getpostman.com/view/10197308/SzfAzSWc?version=latest]
